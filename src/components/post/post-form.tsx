@@ -1,7 +1,7 @@
 import { Button, Input } from 'antd'
 import React, { useState } from 'react'
 
-const PostForm = () => {
+const UserForm = () => {
   const [fullName, setFullName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -46,4 +46,4 @@ const PostForm = () => {
   )
 }
 
-export default PostForm
+export default UserForm
